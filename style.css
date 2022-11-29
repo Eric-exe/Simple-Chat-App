@@ -1,0 +1,54 @@
+* {
+  font-family: "Verdana";
+}
+
+body {
+  background-color: black;
+  color: #fff
+}
+
+button {
+  background-color: black;
+  border-color: #bfbfbf;
+  padding: 5px 25px;
+  border-radius: 5px;
+  color: #fff
+}
+
+#input {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+#message {
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+#name {
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+#chat {
+  margin: auto;
+  width: auto;
+  height: 80%;
+  border: 2px double white;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-wrap: normal;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+}
+
+table, tr, td {
+  border: 1px solid white;
+  padding: 5px;
+}
+

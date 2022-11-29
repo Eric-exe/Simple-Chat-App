@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="ajax.js"></script>
+    <script src="chat.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="getMessages()">
+    <div id="chat"></div><br>
+    <div id="input">
+      <table>
+        <tr>
+          <td>Name: <input type="text" id="name"></input></td>
+          <td>Message: <input type="text" id="message"></input></td>
+          <td><button onclick="sendMessage();">Send</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
